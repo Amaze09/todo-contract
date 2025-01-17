@@ -10,7 +10,9 @@ Foundry consists of:
 -   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
 
 A simple smart contract which stores task hashes and maps them with their completion status.
+
 Contract Address => 0x349F5e1C035e240A2Ac2BD27a0098C6e3cdD0D16
+
 Network => Holesky Testnet
 
 ## Documentation
