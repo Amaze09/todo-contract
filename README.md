@@ -64,3 +64,5 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+A simple smart contract which stores task hashes and maps them with their completion status.
