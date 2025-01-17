@@ -9,6 +9,10 @@ Foundry consists of:
 -   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
 -   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
 
+A simple smart contract which stores task hashes and maps them with their completion status.
+Contract Address => 0x349F5e1C035e240A2Ac2BD27a0098C6e3cdD0D16
+Network => Holesky Testnet
+
 ## Documentation
 
 https://book.getfoundry.sh/
@@ -48,7 +52,7 @@ $ anvil
 ### Deploy
 
 ```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+$ forge script script/Deploy.sol:Deploy --rpc-url <YOUR_RPC_URL> --private-key <YOUR_PRIVATE_KEY> --broadcast --legacy
 ```
 
 ### Cast
